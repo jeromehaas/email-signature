@@ -1,0 +1,62 @@
+// These are the styles to make some of the templates look extra nice.
+// Feel free to remove these styles for production!
+
+// Body Styles 
+body,
+html, 
+.body {
+  background: #f3f3f3 !important;
+}
+
+.container {
+  background: #f3f3f3;
+}
+
+.columns {
+  padding: 0px !important;
+}
+
+#image {
+  width: 100px !important;
+  padding: 0px !important;
+}
+
+img {
+  width: 70px !important;
+  height: 70px !important;
+}
+
+h1, h2, p, td, a {
+  font-family: Helvetica, sans-serif;
+  color: #111 !important;
+}
+
+h1 {
+  font-size: 14px;
+  font-weight: 900;
+  margin-bottom: 0px;
+}
+
+h2 {
+  font-size: 11px;
+  font-weight: 300;
+  margin-bottom: 5px;
+}
+
+th {
+  padding: 0px !important;
+}
+
+td {
+  font-size: 9px;
+  font-weight: 300;
+}
+
+tr td:first-child {
+  width: 45px;
+}
+
+a {
+  font-size: 9px;
+  font-weight: 300;
+}
