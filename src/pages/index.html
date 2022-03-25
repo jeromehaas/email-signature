@@ -5,27 +5,29 @@ subject: My Email Templates
 <spacer size="16"></spacer>
 
 <container>
+	<row>
+		<columns>
+			<p class="text">Hallo und guten Tag Roger,</p>
+			<br />
+			<p class="text">Und wie gehts wie stehts?</p>
+			<p class="text">Lass uns doch das mal zusammen ansehen. Wenn du wirklich denkst, was ich denke was du denkst was ich denke, dann denke ich, dass du völlig recht hast!</p>
+			<p class="text"></p>
+		</columns>
+	</row>
+</container>
+
+<spacer size="64"></spacer>
+
+<container class="signature">
   <row>
-     <columns id="image" small="3" large="3">
-      <img src="https://www.jeromehaas.dev/images/jeromehaas_avatar.png" alt="" width="70" height="70">
-    </columns>
-    <columns id="infos" small="9" large="9">
-      <h1>Jérôme Haas</h1>
-      <h2>Front-End Developer</h2>
-      <table>
-        <tr>
-          <td>Website</td>
-          <td><a href="https://www.jeromehaas.dev">jeromehaas.dev</a></td>
-        </tr>
-        <tr>
-          <td>Email</td>
-          <td> <a href="mailto:hello@jeromehaas.dev">hello@jeromehaas.dev</a></td>
-        </tr>
-        <tr>
-          <td>Mobile</td>
-          <td> <a href="tel:+41795129016">+41 79 512 90 16</a></td>
-        </tr>
-      </table>
+		<columns class="signature__logo" small="3" large="3">
+			<img src="/assets/img/logo-hws.png" alt="" width="600">
+		</columns>
+    <columns class="signature__contact-details contact-details__item" small="9" large="9">
+      <p class="contact-details__item"><strong style="font-style: normal; font-weight: 600; text-decoration: none; ">jérôme haas</strong></p>
+      <a class="contact-details__item" href="tel:+41795129016"><strong style="font-style: normal; font-weight: 600; text-decoration: none; ">079 512 90 16</strong></a>
+      <a class="contact-details__item" href="mailto:jerome@haas-web-solutions.ch"><strong style="font-style: normal; font-weight: 600; text-decoration: none; ">jerome@haaswebsolutions.io</strong></a>
+      <a class="contact-details__item" href="https://www.jeromehaas.dev"><strong style="font-style: normal; font-weight: 600; text-decoration: none; ">haaswebsolutions.io</strong></a>
     </columns>
   </row>
 </container>

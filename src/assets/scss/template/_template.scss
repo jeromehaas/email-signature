@@ -1,15 +1,11 @@
-// These are the styles to make some of the templates look extra nice.
-// Feel free to remove these styles for production!
-
-// Body Styles 
 body,
 html, 
 .body {
-  background: #f3f3f3 !important;
+  background: $white !important;
 }
 
 .container {
-  background: #f3f3f3;
+  background: $white;
 }
 
 .columns {
@@ -17,24 +13,20 @@ html,
 }
 
 #image {
-  width: 100px !important;
+  width: 1000px !important;
   padding: 0px !important;
 }
 
-img {
-  width: 70px !important;
-  height: 70px !important;
-}
-
 h1, h2, p, td, a {
-  font-family: Helvetica, sans-serif;
+  font-family:  "Courier New", sans-serif;
   color: #111 !important;
 }
 
 h1 {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 900;
-  margin-bottom: 0px;
+	margin-bottom: 0;
+  padding-bottom: 0px;
 }
 
 h2 {
@@ -43,20 +35,39 @@ h2 {
   margin-bottom: 5px;
 }
 
-th {
-  padding: 0px !important;
+.text {
+	font-size: 12px;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	font-weight: lighter;
 }
 
-td {
-  font-size: 9px;
+.signature__logo {
+	width: 47px !important;
+	margin: 0 !important;
+	vertical-align: top;
+	
+	img {
+		margin: 0 !important;
+		display: block !important;
+	}
+}
+
+.signature__contact-details {
+	vertical-align: middle;
+	height: 58px;
+	width: auto !important;
+	padding-left: 20px !important;
+}
+
+
+.contact-details__item {
+  font-size: 12px;
   font-weight: 300;
+	text-decoration: none !important;
+	display: block;
+	margin-bottom: 0;
 }
 
-tr td:first-child {
-  width: 45px;
-}
-
-a {
-  font-size: 9px;
-  font-weight: 300;
+span {
+	text-decoration: none !important;
 }
